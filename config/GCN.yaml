@@ -1,0 +1,40 @@
+# Test Acc: 0.7953947368421053 +- 0.018243979768239525
+chameleon:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  conv_norm: "sym"    # "sym", "row", "dir"
+
+  lr: 0.005
+  hidden_dim: 128
+  num_layers: 5
+  jk: "max"
+  patience: 600
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True
+
+squirrel:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  conv_norm: "sym"    # "sym", "row", "dir"
+
+  lr: 0.01
+  hidden_dim: 128
+  num_layers: 4
+  jk: "max"
+  patience: 400
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True
+
+

@@ -1,0 +1,38 @@
+chameleon:
+  undirected: True
+  self_loops: False
+  transpose: False
+  dropout: 0
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  proj: False
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 600
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True
+
+
+squirrel:
+  undirected: True
+  self_loops: False
+  transpose: False
+  dropout: 0
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  proj: False
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 600
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True
