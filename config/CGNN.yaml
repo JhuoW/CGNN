@@ -1,0 +1,18 @@
+chameleon:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  conv_norm: "sym"    # "sym", "row", "dir"
+
+  lr: 0.005
+  hidden_dim: 128
+  num_layers: 5
+  jk: "max"
+  patience: 600
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True

@@ -1,0 +1,24 @@
+# Test Acc: 0.774005722460658 +- 0.007932641760939288
+
+photo:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0.5
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  alpha: 0.1
+  theta: 0.5
+  shared_weights: True
+  conv_weight_decay: 0.01
+  lin_weight_decay: 0.0005
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 600
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True

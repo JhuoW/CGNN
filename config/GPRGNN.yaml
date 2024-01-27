@@ -1,0 +1,24 @@
+# Test Acc: 0.9172532188841203 +- 0.0033879915194771066
+photo:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0.5
+  learn_alpha: False
+  weight_decay: 0 
+  num_epochs: 10000
+  dropout: 0.5
+  K: 3
+  beta: 1
+  dprate: 0.5
+  init: 'PPR'
+  Gamma: null
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 600
+  conv_type: "dir-gcn"
+  alpha: 1
+  normalize: True
